@@ -30,7 +30,7 @@ Once you have cloned the repository, you can open the project with the Godot Eng
 ## Usage
 
 You can play the game by downloading and running the `.exe` file from the releases.
- You can also play it from the Godot Engine by by clicking the play button in the top right corner.
+You can also play it from the Godot Engine by by clicking the play button in the top right corner.
 
 ## Contributing
 
@@ -42,4 +42,4 @@ You can contribute to the project by forking the repository and making a pull re
 
 ## License
 
-The project is under the MIT Licence. You can find it [here](/LICENSE).
+The project is under the MIT License. You can find it [here](/LICENSE).
