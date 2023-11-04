@@ -1,5 +1,6 @@
 extends RigidBody2D
 
+var _dead: bool = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -19,3 +20,13 @@ func update_debug_label()-> void:
 		Utils.vec2_to_str(linear_velocity)
 	] 
 	SignalManager.on_update_debug_label.emit(s)
+
+func die()-> void:
+	if _dead == true:
+		return
+	_dead = true
+	SignalManager.on_animal_died.emit()
+	queue_free()
+
+func _on_screen_exited():
+	die()

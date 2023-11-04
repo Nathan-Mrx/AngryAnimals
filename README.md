@@ -38,7 +38,7 @@ You can contribute to the project by forking the repository and making a pull re
 
 ## Credits
 
-- Nathan Meriueux - [Nathan-Mrx](https://github.com/Nathan-Mrx/)
+- Nathan Merieux - [Nathan-Mrx](https://github.com/Nathan-Mrx/)
 
 ## License
 
