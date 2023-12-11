@@ -1,6 +1,6 @@
 # Angry Animals
 ![Static Badge](https://img.shields.io/badge/Licence-MIT-green)
-![Static Badge](https://img.shields.io/badge/Status-In_progress-gold)
+![Static Badge](https://img.shields.io/badge/Status-1.0-gold)
 ![Static Badge](https://img.shields.io/badge/Engine-Godot_4.2-blue)
 
 Angry Animals is a clone of the famous game Angry Birds, developed with the Godot Engine.

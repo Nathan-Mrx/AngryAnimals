@@ -8,6 +8,7 @@
 size = Vector2(1090, 37.5)
 
 [node name="Water" type="Area2D"]
+position = Vector2(3.5169, 0.586151)
 script = ExtResource("1_7mydn")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
