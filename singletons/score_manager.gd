@@ -33,7 +33,7 @@ func get_attempts()-> int:
 	return _attempts
 
 func get_level_selected()-> int:
-	return get_level_selected()
+	return _level_selected
 
 func set_target_cups(t: int)-> void:
 	_target_cups = t

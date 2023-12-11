@@ -1,10 +1,11 @@
-[gd_scene load_steps=8 format=3 uid="uid://fbf13cpfjf6y"]
+[gd_scene load_steps=9 format=3 uid="uid://fbf13cpfjf6y"]
 
 [ext_resource type="Script" path="res://animal/animal.gd" id="1_crnrj"]
 [ext_resource type="Texture2D" uid="uid://drlx1hw3u56ol" path="res://assets/player/parrot.png" id="1_dejye"]
 [ext_resource type="AudioStream" uid="uid://r58r6rualovt" path="res://assets/audio/stretch2.ogg" id="3_evi1y"]
 [ext_resource type="AudioStream" uid="uid://dw6tgkyss5lms" path="res://assets/audio/catapult.ogg" id="4_1ppgt"]
 [ext_resource type="AudioStream" uid="uid://dpukttid2n842" path="res://assets/audio/kick_wood.ogg" id="5_c7h4m"]
+[ext_resource type="Texture2D" uid="uid://yjt2g5aygp3u" path="res://assets/items/arrow.png" id="6_jcq2f"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_vammg"]
 bounce = 0.2
@@ -39,6 +40,11 @@ stream = ExtResource("4_1ppgt")
 
 [node name="CollisionSound" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("5_c7h4m")
+
+[node name="ArrowSprite" type="Sprite2D" parent="."]
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("6_jcq2f")
+offset = Vector2(150, 2.08165e-12)
 
 [connection signal="input_event" from="." to="." method="_on_input_event"]
 [connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_screen_exited"]
