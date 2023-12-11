@@ -29,3 +29,9 @@ position = Vector2(133, 361)
 
 [node name="Cup" parent="." instance=ExtResource("2_oh7is")]
 position = Vector2(773, 502)
+
+[node name="Cup2" parent="." instance=ExtResource("2_oh7is")]
+position = Vector2(670, 360)
+
+[node name="Cup3" parent="." instance=ExtResource("2_oh7is")]
+position = Vector2(567, 509)
