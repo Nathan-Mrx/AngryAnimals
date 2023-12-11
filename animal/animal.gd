@@ -143,6 +143,8 @@ func release_it()-> void:
 	stretch_sound.stop()
 	launch_sound.play()
 	
+	ScoreManager.attempt_made()
+	
 func get_impulse() -> Vector2:
 	return _dragged_vector * -1 * IMPULSE_MULT
 
