@@ -11,7 +11,8 @@ config_version=5
 [application]
 
 config/name="AngryAnimals"
-config/features=PackedStringArray("4.1", "Mobile")
+config/tags=PackedStringArray("clone", "course")
+config/features=PackedStringArray("4.2", "Mobile")
 
 [autoload]
 
