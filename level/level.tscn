@@ -28,4 +28,4 @@ adadadadadadadda"
 position = Vector2(133, 361)
 
 [node name="Cup" parent="." instance=ExtResource("2_oh7is")]
-position = Vector2(191, 528)
+position = Vector2(773, 502)

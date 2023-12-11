@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://fbf13cpfjf6y"]
+[gd_scene load_steps=7 format=3 uid="uid://fbf13cpfjf6y"]
 
 [ext_resource type="Script" path="res://animal/animal.gd" id="1_crnrj"]
 [ext_resource type="Texture2D" uid="uid://drlx1hw3u56ol" path="res://assets/player/parrot.png" id="1_dejye"]
 [ext_resource type="AudioStream" uid="uid://r58r6rualovt" path="res://assets/audio/stretch2.ogg" id="3_evi1y"]
+[ext_resource type="AudioStream" uid="uid://dw6tgkyss5lms" path="res://assets/audio/catapult.ogg" id="4_1ppgt"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_vammg"]
 bounce = 0.2
@@ -29,6 +30,9 @@ scale = Vector2(2.05, 2.05)
 
 [node name="StretchSound" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("3_evi1y")
+
+[node name="LaunchSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_1ppgt")
 
 [connection signal="input_event" from="." to="." method="_on_input_event"]
 [connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_screen_exited"]
