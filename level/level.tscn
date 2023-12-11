@@ -25,7 +25,7 @@ dadadadadadadad
 adadadadadadadda"
 
 [node name="AnimalStart" type="Marker2D" parent="."]
-position = Vector2(130, 423)
+position = Vector2(133, 361)
 
 [node name="Cup" parent="." instance=ExtResource("2_oh7is")]
 position = Vector2(191, 528)
